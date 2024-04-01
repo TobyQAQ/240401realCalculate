@@ -231,12 +231,14 @@
             // 
             // txtNumber
             // 
-            this.txtNumber.Font = new System.Drawing.Font("微軟正黑體", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtNumber.Font = new System.Drawing.Font("微軟正黑體", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.txtNumber.Location = new System.Drawing.Point(49, 32);
             this.txtNumber.Multiline = true;
             this.txtNumber.Name = "txtNumber";
             this.txtNumber.Size = new System.Drawing.Size(594, 75);
             this.txtNumber.TabIndex = 17;
+            this.txtNumber.Text = "0";
+            this.txtNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Form1
             // 
